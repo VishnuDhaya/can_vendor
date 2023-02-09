@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.no-margin{
+  margin: 0px !important;
+}
+
+.no-padding{
+  padding: 0px !important;
+}
+
+.h-50px{
+  height: 50px;
+}
+
+.landing-nav-btn{
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  background-color: #F5A294;
+}
+
+.login-input{
+  border: none;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+}
+
+.mw-300{
+  max-width: 300px;
+}
+
+.text-gray{
+  color: #939393;
+}
+
+.bg-color-gray{
+  background-color: #939393;
+}
+
+.banner-person-position{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-person-box{
+  padding: 20px;  
+  border: solid 2px gray;
+}
