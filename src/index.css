@@ -59,3 +59,13 @@ code {
   padding: 20px;  
   border: solid 2px gray;
 }
+
+.mt-res{
+   margin-top: 15px; 
+}
+
+@media screen and (min-width: 768px) {
+  .mt-res{
+    margin-top: 0px;
+  }
+}
