@@ -64,8 +64,63 @@ code {
    margin-top: 15px; 
 }
 
+/* Patient_detail_page */
+
+.mar-top-15px{
+  margin-top: 15px;
+}
+
+.bg-blue{
+  width: 100%;
+  background-color: #0D61B6;
+}
+
+.h-100vh{
+  height: 100vh;
+}
+
+.frame-box{
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.frame-box-container{
+  padding: 5px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #73C3B3, #F5A72D, #7A3A51);
+}
+
+.rotate-270{
+  transform: rotate(270deg);
+}
+
+/* Responsive */
+@media screen and (min-width: 320px) {
+  .bg-blue{
+    width: 15% !important;
+    background-color: 0D61B6;;
+  }
+  .w-90{
+    width: 85%;
+  }
+  .mt-res{
+    margin-top: 0px;
+  }
+}
 @media screen and (min-width: 768px) {
   .mt-res{
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mt-res{
+    margin-top: 0px;
+  }
+  .bg-blue{
+    width: 7% !important;
+    background-color: 0D61B6;;
+  }
+  .w-90{
+    width: 90%;
   }
 }
